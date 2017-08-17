@@ -1,0 +1,462 @@
+/*
+	============================================
+	Reset
+	============================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+  ========================================
+  Body
+  ========================================
+*/
+body {
+  background: url(images/bodyimage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	text-align: center;
+	max-width: 75em;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: courier;
+}
+/*
+  ========================================
+  Header
+  ========================================
+*/
+.banner {
+	background: url(images/Header.png) no-repeat center;
+  -webkit-background-size: 75em 15em;
+  -moz-background-size: 75em 15em;
+  -o-background-size: 75em 15em;
+  background-size: 75em 15em;
+	height: 15em;
+	width: 75em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.logo img {
+  display: inline-block;
+  box-sizing: border-box;
+	margin-top: 2.4em;
+	padding: .625em;
+  height: 7.5em;
+}
+/*
+  =======================================
+  Nav
+  =======================================
+*/
+nav .container {
+	margin-top: .625em;
+  height: 5em;
+}
+nav {
+	text-align: center;
+}
+.container .nav {
+	display: inline-block;
+}
+.nav li {
+  float: left;
+}
+.nav img {
+  width: 12.5em;
+	margin: 0 .9em;
+}
+.btn img:hover {
+  width: 14em;
+	transition: .5s;
+}
+/*
+	======================================
+	Main Content
+	======================================
+*/
+.main {
+	margin-top: 3em;
+	width: 68em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main h1 {
+	font-size: 2.375em;
+	text-align: left;
+	margin-bottom: 2.5em;
+}
+.main h2 {
+	font-size: 1.375em;
+	font-style: italic;
+	color: rgba(75, 75, 75, 1);
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+.main h3 {
+	text-align: right;
+	font-size: 1em;
+	color: rgba(175, 0, 0, 1);
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: .5em;
+}
+.main p {
+	margin: 2em 0;
+	text-align: left;
+	line-height: 200%;
+}
+.layout {
+	display: flex;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	height: 47.125em;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.layout img {
+	width: 61em;
+	height: 48em;
+}
+.layout1 {
+	display: flex;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	height: 47.125em;
+	margin-left: -8em;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.layout1 img {
+	width: 61em;
+	height: 48em;
+}
+.sticky img {
+	width: inherit;
+}
+.sticky {
+	width: inherit;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: sticky;
+	white-space: nowrap;
+	height: 23em;
+	top: 0;
+	bottom: 0;
+}
+section {
+	display: inline;
+	margin-top: 1em;
+	padding: 1em 1.5em;
+}
+aside {
+	display: inline;
+}
+/*
+	========================================
+	Home_Content
+	========================================
+*/
+#about {
+	height: 47.125em;
+	width: 100%;
+	overflow-y: scroll;
+	direction: ltr;
+	overflow-x:  hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container #about {
+	background-image: url(images/main_body.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+#about::-webkit-scrollbar {
+  width: 7.9em;
+}
+#about::-webkit-scrollbar-thumb {
+  background: url(images/thumb.png) no-repeat center center;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+	height: 7.9em;
+}
+#home {
+	width: 68em;
+	height: auto;
+	margin-bottom: 3em;
+	float: left;
+	display: inline;
+}
+#home section {
+	float: left;
+	width: 23.5em;
+	height: auto;
+	margin-top: 3em;
+	margin-left: 3em;
+}
+#home aside {
+	float: right;
+	width: 22em;
+	height: 60em;
+	padding-right: 13em;
+}
+#home .sticky {
+	top: 10em;
+	height: auto;
+}
+.i1 .sticky {
+	margin-bottom:;
+	margin-top: 2em;
+}
+.i1 img {
+	height: auto;
+	width: 20em;
+	margin-top: -3em;
+}
+/*
+	========================================
+	Comedy_Content
+	========================================
+*/
+#about_c h1 {
+	text-align: right;
+}
+#about_c h3 {
+	text-align: left;
+}
+#about_c {
+	height: 47.125em;
+	width: 100%;
+	display: flex;
+	overflow-y: scroll;
+	direction: rtl;
+	overflow-x:  hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container #about_c {
+	background-image: url(images/main_body2.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+#about_c::-webkit-scrollbar {
+  width: 7.9em;
+}
+#about_c::-webkit-scrollbar-thumb {
+  background: url(images/thumb3.png) no-repeat center center;
+	-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+	height: 12.5em;
+}
+#comedy {
+	width: 68em;
+	height: auto;
+	margin-bottom: 3em;
+	float: left;
+	display: inline;
+}
+#comedy section {
+	float: right;
+	width: 24em;
+	height: auto;
+	margin-top: 3em;
+	margin-right: 3.5em;
+	direction: ltr;
+}
+#comedy aside {
+	float: left;
+	width: 22em;
+	height: 90em;
+	margin-left: 4.5em;
+}
+#comedy .sticky {
+	top: 15em;
+	height: auto;
+}
+.ic1 .sticky {
+	margin-top:;
+}
+.ic1 img {
+	width: 22em;
+	height: auto;
+}
+
+.excellink a {
+	background-color: #0099ff;
+	box-shadow: inset 0px -2px 1px rgba(0,0,0,0.8),
+							inset 0 2px 1px rgba(255,255,255,1);
+  border: none;
+  color: black;
+	margin-top: 1em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	border-radius: 2em;
+	font-weight: bolder;
+}
+/*
+	============================================
+	Art_Content
+	============================================
+*/
+#about_a {
+	height: 47.125em;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x:  scroll;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+#about_a h3 {
+	text-align: center;
+	font-style: italic;
+	font-size: 33px;
+	text-transform: capitalize;
+}
+.container #about_a {
+	background-image: url(images/main_body3.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+#about_a::-webkit-scrollbar {
+  height: 7.9em;
+}
+#about_a::-webkit-scrollbar-thumb {
+  background: url(images/thumb2.png) no-repeat center center;
+	-webkit-background-size: 7.9em 100%;
+  -moz-background-size: 7.9em 100%;
+  -o-background-size: 7.9em 100%;
+  background-size: 7.9em 100%;
+	width: 7.9em;
+}
+#art {
+	width: 10000em;
+	height: 47.125em;
+	display: flex;
+}
+#art aside {
+	width: 10000em;
+	height: 20em;
+}
+#art .sticky {
+	left: 9em;
+	width: inherit;
+	position: -webkit-sticky;
+	position: sticky;
+	height: 23em;
+	width: 50em;
+	margin-top: 3em;
+	margin-left: 6em;
+}
+.ia1 img {
+	height: 30em;
+	width: auto;
+}
+.ia1 .sticky {
+	width: 6em;
+}
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+footer a {
+	margin-left: .25em;
+	margin-right: .25em;
+}
+footer {
+	background-image: url(images/footer.png);
+	-webkit-background-size: 35em 7em;
+	-moz-background-size: 35em 7em;
+	-o-background-size: 35em 7em;
+	background-size: 35em 7em;
+	height: 7em;
+	width: 35em;
+	clear: both;
+	display: inline-block;
+  text-align: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+footer .container {
+	display: inline-block;
+	height: inherit;
+	width: 25em;
+	margin-top: .5em;
+}
+footer .row {
+	margin-bottom: 3em;
+}
+.primary-footer small {
+	display: inline-block;
+  float: left;
+}
